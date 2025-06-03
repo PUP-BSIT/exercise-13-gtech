@@ -28,16 +28,27 @@ def main_menu():
         title = "[bold magenta]Welcome to Gtech![/bold magenta]"
         print_title(title)
 
+        # Menu text
+        menu_text = "\n".join([
+            "[bold cyan]Choose a module to explore:[/bold cyan]",
+            "1 - Aragon",
+            "2 - Dimayuga",
+            "3 - Lim",
+            "4 - Lopez",
+            "5 - Romero",
+            "6 - Exit"
+        ])
 
-        console.print("[bold cyan]Choose a module to explore:[/bold cyan]")
-        console.print("1 - Aragon")
-        console.print("2 - Dimayuga")
-        console.print("3 - Lim")
-        console.print("4 - Lopez")
-        console.print("5 - Romero")
-        console.print("6 - Exit")
+        # Create and center the menu panel
+        menu_panel = Panel(
+            Align.center(menu_text, vertical="middle"),
+            border_style="cyan",
+            width=60,
+            box=box.DOUBLE_EDGE
+        )
+        console.print(Align.center(menu_panel)) 
 
-        choice = input("\nEnter your choice: ").strip()
+        choice = console.input("\n[bold yellow]Enter your choice:[/bold yellow] ").strip()
 
         clear_screen()
 
@@ -63,21 +74,3 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
-
-
-
-# TO DO
-# Create a module with your last name as the module name.
-#	- aragon
-#	- dimayuga
-#	- lim
-#	- lopez
-#   - romero
-
-# TO DO
-# For each member's module, create a function that display a menu with the 
-# following options:
-#	- basic info
-#	- goals
-#	- comments from other teammates
-
