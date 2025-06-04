@@ -61,8 +61,8 @@ def random_fact():
     console.print(f"[italic magenta]💡 Fun Fact: {fact}[/]\n")
 
 def comments_aragon():
-    print_title("[yellow]✦ Great member! Happy to have you in our group. ✦")
-    # Put your comments here. (e.g. console.print("<comment> - Name"))
+    print_title("[yellow]✦ COMMENTS FROM TEAMMATE ARAGON ✦")
+    console.print("Great member! Happy to have you in our group.")
 
 def comments_dimayuga():
     print_title("[yellow]✦ COMMENTS FROM TEAMMATE DIMAYUGA ✦")
