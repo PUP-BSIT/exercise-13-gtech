@@ -1,6 +1,7 @@
 from rich.panel import Panel 
 from rich.align import Align
 from rich import print
+from rich.prompt import Prompt
 import os
 
 # Clears the screen
@@ -104,10 +105,12 @@ def display_lim_menu():
             clear_screen()
             print(Align.center("[italic deep_sky_blue1] "
                                "Thank you, Goodbye! ༄"))  
+            input()
             break
         else:
             print(Align.center("[bold deep_pink3]"
             "Invalid choice. Select from 1 to 3 only."))
-            
+        
+        print(Align.center("[bold italic deep_sky_blue1]Press Enter to"
+                            " return to the menu."))
         input()
-        return

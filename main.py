@@ -84,7 +84,4 @@ def main_menu():
             console.print("[red]Invalid choice. " \
                             "Please select a number from 1 to 6.[/red]")
 
-        input("\nPress Enter to return to the menu...")
-
-if __name__ == "__main__":
-    main_menu()
+main_menu()
