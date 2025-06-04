@@ -48,29 +48,36 @@ def main_menu():
         )
         console.print(Align.center(menu_panel)) 
 
-        choice = console.input("\n[bold yellow]Enter your choice:[/bold yellow] ").strip()
+        choice = console.input("\n[bold yellow]Enter your " \
+                                    "choice:[/bold yellow] ").strip()
 
         clear_screen()
 
         if choice == "1":
-            print_title("[bold magenta]You selected: Aragon Module[/bold magenta]")
+            print_title("[bold magenta]You selected: " \
+                            "Aragon Module[/bold magenta]")
             import packages.aragon as aragon
             aragon.aragon_menu()
         elif choice == "2":
-            print_title("[bold magenta]You selected: Dimayuga Module[/bold magenta]")
+            print_title("[bold magenta]You selected: " \
+                            "Dimayuga Module[/bold magenta]")
         elif choice == "3":
-            print_title("[bold magenta]You selected: Lim Module[/bold magenta]")
+            print_title("[bold magenta]You selected: " \
+                            "Lim Module[/bold magenta]")
         elif choice == "4":
-            print_title("[bold magenta]You selected: Lopez Module[/bold magenta]")
+            print_title("[bold magenta]You selected: " \
+                            "Lopez Module[/bold magenta]")
         elif choice == "5":
-            print_title("[bold magenta]You selected: Romero Module[/bold magenta]")
+            print_title("[bold magenta]You selected: " \
+                            "Romero Module[/bold magenta]")
             import packages.romero as romero
             romero.romero_menu()
         elif choice == "6":
             console.print("\n[bold green]Thank you! Goodbye![/bold green]")
             break
         else:
-            console.print("[red]Invalid choice. Please select a number from 1 to 6.[/red]")
+            console.print("[red]Invalid choice. " \
+                            "Please select a number from 1 to 6.[/red]")
 
         input("\nPress Enter to return to the menu...")
 
