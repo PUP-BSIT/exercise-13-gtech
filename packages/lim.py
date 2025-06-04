@@ -70,7 +70,7 @@ def comment_dimayuga():
 def comment_lopez():
     print(Align.center(Panel("[bold light_cyan1]A great programmer! "
                              "I have always liked your style and aesthetic.",
-                        title="[italic deep_sky_blue1]Comment from Dimayuga",
+                        title="[italic deep_sky_blue1]Comment from Lopez",
                         )))
 
 def comment_romero():
