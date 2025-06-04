@@ -122,5 +122,4 @@ def display_menu():
                    show_default=False)
         
         console.clear()
-
-display_menu()
+        return
