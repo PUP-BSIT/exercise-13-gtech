@@ -63,7 +63,8 @@ def comment_aragon():
     
 def comment_dimayuga():
     print(Align.center(Panel("[bold light_cyan1] ",
-                        title="[italic deep_sky_blue1]Comment from Dimayuga",
+                        title="[italic deep_sky_blue1]You’ve been super "
+                        "helpful — don’t think it goes unnoticed.",
                         )))
     
 def comment_lopez():

@@ -66,7 +66,8 @@ def comments_aragon():
 
 def comments_dimayuga():
     print_title("[yellow]✦ COMMENTS FROM TEAMMATE DIMAYUGA ✦")
-    # Put your comments here. (e.g. console.print("<comment> - Name"))
+    console.print("Not all heroes wear capes... "
+                  "some debug without crying - AJ")
 
 def comments_lim():
     print_title("[yellow]✦ COMMENTS FROM TEAMMATE LIM ✦")
