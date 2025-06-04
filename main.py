@@ -28,7 +28,6 @@ def main_menu():
         title = "[bold magenta]Welcome to Gtech![/bold magenta]"
         print_title(title)
 
-        # Menu text
         menu_text = "\n".join([
             "[bold cyan]Choose a module to explore:[/bold cyan]",
             "1 - Aragon",

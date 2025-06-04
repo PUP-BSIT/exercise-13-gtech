@@ -66,15 +66,16 @@ def comments_aragon():
 
 def comments_dimayuga():
     print_title("[yellow]✦ COMMENTS FROM TEAMMATE DIMAYUGA ✦")
-    # Put your comments here. (e.g. console.print("<comment> - Name"))
+    console.print("Not all heroes wear capes... "
+                  "some debug without crying - AJ")
 
 def comments_lim():
     print_title("[yellow]✦ COMMENTS FROM TEAMMATE LIM ✦")
     # Put your comments here. (e.g. console.print("<comment> - Name"))
 
 def comments_romero():
-    print_title("[yellow]✦ COMMENTS FROM TEAMMATE ROMERO ✦")
-    # Put your comments here. (e.g. console.print("<comment> - Name"))
+    print_title("[yellow]✦ Your positivity is contagious!"
+                "Thanks for always lifting the team’s mood.✦")
 
 def goodbye():
     print_title("[yellow]Thank you for using the menu! (˶ˆᗜˆ˵)")
