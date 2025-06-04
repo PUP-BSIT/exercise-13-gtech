@@ -90,7 +90,7 @@ def goodbye():
 def romero_menu():
     while True:
         clear_screen()
-        print_title("✦ RAIN'S PERSONAL CONSOLE MENU ✦")
+        print_title("✦ I am Dianna Rain Romero ✦")
 
         console.print("[bold magenta][1][/bold magenta]Basic Info")
         console.print("[bold magenta][2][/bold magenta]Goals")
