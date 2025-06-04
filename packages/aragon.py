@@ -140,5 +140,4 @@ def comment_romero():
     ))
     input("\nPress ENTER to return to Althea's Menu")
     clear()
-
-aragon_menu()
+    return

@@ -129,5 +129,4 @@ def romero_menu():
             "Please select a number between 1 and 8.")
 
         console.input("\n[dim]Press Enter to return to the menu...[/]")
-
-romero_menu()
+        return

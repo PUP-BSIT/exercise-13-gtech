@@ -68,10 +68,10 @@ def comment_dimayuga():
                         )))
     
 def comment_lopez():
-    print(Align.center(Panel("[bold light_cyan1] ",                 
-            title="[italic deep_sky_blue1]A great programmer! I always " \
-                                        "liked your style and aesthetic.",
-            )))
+    print(Align.center(Panel("[bold light_cyan1]A great programmer! "
+                             "I have always liked your style and aesthetic.",
+                        title="[italic deep_sky_blue1]Comment from Dimayuga",
+                        )))
 
 def comment_romero():
     print(Align.center(Panel("[bold light_cyan1]Your creativity really " 
@@ -111,5 +111,4 @@ def display_lim_menu():
         print(Align.center("[bold italic deep_sky_blue1]Press Enter to"
                             " return to the menu."))
         input()
-
-display_lim_menu()
+        return

@@ -74,7 +74,7 @@ def comments_lim():
     console.print("I like your design!")
 
 def comments_romero():
-    print_title("[yellow]✦ Your positivity is contagious!"
+    console.print("[yellow]✦ Your positivity is contagious!"
                 "Thanks for always lifting the team’s mood.✦")
 
 def goodbye():
@@ -125,5 +125,4 @@ def lopez_menu():
                         "Please select a number that is available. (• ᴖ •｡ )")
 
         console.input("\n[grey]Press Enter to return to the menu...")
-
-lopez_menu()
+        return
