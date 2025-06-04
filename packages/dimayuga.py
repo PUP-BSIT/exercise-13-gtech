@@ -34,7 +34,8 @@ def comment_lopez():
 def comment_romero():
     console.print(
         Align.center(Panel(
-            "[bold light_cyan1]<place comment here>[/bold light_cyan1]",
+            "[bold light_cyan1]Smart, quick, and always ready to contribute. " 
+            "You’re a huge asset to the team![/bold light_cyan1]",
             title="[italic deep_sky_blue1]Comment from Romero",
             border_style="cyan"))
     )

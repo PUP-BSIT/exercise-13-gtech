@@ -131,7 +131,8 @@ def comment_lopez():
 def comment_romero():
     # Function to display teammate Romero comments
     console.print(Panel(
-        "[yellow]⋆ˎˊ˗ Dianna Rain Romero:[insert comment here]\n",
+        "[yellow]⋆ˎˊ˗ Dianna Rain Romero: You’re always composed"
+        " and dependable — such a calming presence in the group!",
         title="⋆𐙚₊˚ Teammate Comments ⋆˚࿔",
         border_style="magenta"
     ))
