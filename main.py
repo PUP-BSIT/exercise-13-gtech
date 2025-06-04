@@ -43,6 +43,8 @@ def main_menu():
 
         if choice == "1":
             print_title("[bold magenta]You selected: Aragon Module[/bold magenta]")
+            import packages.aragon as aragon
+            aragon.aragon_menu()
         elif choice == "2":
             print_title("[bold magenta]You selected: Dimayuga Module[/bold magenta]")
         elif choice == "3":
