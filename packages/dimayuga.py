@@ -18,7 +18,7 @@ def comment_lim():
     console.print(
         Align.center(Panel(
             "[bold light_cyan1]<place comment here>[/bold light_cyan1]",
-            title="[italic deep_sky_blue1]Comment from Dimayuga",
+            title="[italic deep_sky_blue1]Comment from Lim",
             border_style="cyan"))
     )
 
