@@ -123,5 +123,5 @@ def lopez_menu():
         else:
             console.print("[bold red]Invalid choice." \
                         "Please select a number that is available. (• ᴖ •｡ )")
-            
-        return
+        
+        console.input("\n[grey]Press Enter to return to the menu...")

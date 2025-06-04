@@ -92,7 +92,7 @@ def goodbye():
 def romero_menu():
     while True:
         clear_screen()
-        print_title("✦ I am Dianna Rain Romero ✦")
+        print_title("✦ Hello! I am Dianna Rain Romero ✦")
 
         console.print("[bold magenta][1][/bold magenta]Basic Info")
         console.print("[bold magenta][2][/bold magenta]Goals")
@@ -128,4 +128,4 @@ def romero_menu():
             console.print("[red]Invalid option. " 
             "Please select a number between 1 and 8.")
 
-        return
+        console.input("\n[dim]Press Enter to return to the menu...[/]")

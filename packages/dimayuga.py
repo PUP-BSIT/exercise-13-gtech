@@ -41,7 +41,6 @@ def comment_romero():
             border_style="cyan"))
     )
 
-
 def display_menu():
     while True:
         console.print(
@@ -118,6 +117,8 @@ def display_menu():
             break
 
         console.print("")
+        Prompt.ask("🔁 Press Enter to return to the menu", 
+                   default="", 
+                   show_default=False)       
         console.clear()
-        
-        return
+
