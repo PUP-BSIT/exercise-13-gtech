@@ -1,5 +1,6 @@
 import packages.aragon as aragon
 import packages.dimayuga as dimayuga
+import packages.lim as lim
 import packages.lopez as lopez
 import packages.romero as romero
 from rich.console import Console
@@ -67,6 +68,7 @@ def main_menu():
         elif choice == "3":
             print_title("[bold magenta]You selected: " \
                             "Lim Module[/bold magenta]")
+            lim.display_lim_menu()
         elif choice == "4":
             print_title("[bold magenta]You selected: " \
                             "Lopez Module[/bold magenta]")

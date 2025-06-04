@@ -57,7 +57,8 @@ def display_goals():
         )))            
 
 def comment_aragon():
-    print(Align.center(Panel("[bold light_cyan1]<insert comment here>",
+    print(Align.center(Panel("[bold light_cyan1] A team player! Thank you for"
+                            " always being ready to help. ",
                             title="[italic deep_sky_blue1]Comment from Aragon",
                             )))   
     
@@ -108,7 +109,5 @@ def display_lim_menu():
             print(Align.center("[bold deep_pink3]"
             "Invalid choice. Select from 1 to 3 only."))
             
-        print(Align.center("[bold italic deep_sky_blue1]Press Enter to"
-                            " return to the menu."))
         input()
         return
