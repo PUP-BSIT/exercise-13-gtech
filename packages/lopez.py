@@ -71,7 +71,7 @@ def comments_dimayuga():
 
 def comments_lim():
     print_title("[yellow]✦ COMMENTS FROM TEAMMATE LIM ✦")
-    # Put your comments here. (e.g. console.print("<comment> - Name"))
+    console.print("I like your design!")
 
 def comments_romero():
     print_title("[yellow]✦ Your positivity is contagious!"

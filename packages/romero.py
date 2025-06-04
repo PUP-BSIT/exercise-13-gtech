@@ -79,7 +79,7 @@ def comments_dimayuga():
 def comments_lim():
     section_header("COMMENTS FROM LIM")
     #add comments here
-    console.print("[magenta]» ")
+    console.print("[magenta]» Good job! Keep it up!")
 
 def random_fact():
     fact = random.choice(fun_facts)

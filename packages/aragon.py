@@ -112,7 +112,7 @@ def comment_dimayuga():
 def comment_lim():
     # Function to display teammate Lim comments
     console.print(Panel(
-        "[yellow]⋆ˎˊ˗ Grace Anne Lim:[insert comment here]\n",
+        "[yellow]⋆ˎˊ˗ Grace Anne Lim: Your design is cool! I like it!\n",
         title="⋆𐙚₊˚ Teammate Comments ⋆˚࿔",
         border_style="magenta"
     ))
