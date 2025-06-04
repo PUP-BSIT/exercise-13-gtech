@@ -9,15 +9,15 @@ console = Console()
 def comment_aragon():
     console.print(
         Align.center(Panel(
-            "[bold light_cyan1]AJ's module is clean and well-organized. Great use of Rich for UI![/bold light_cyan1]",
+            "[bold light_cyan1]<place comment here>[/bold light_cyan1]",
             title="[italic deep_sky_blue1]Comment from Aragon",
             border_style="cyan"))
     )
 
-def comment_dimayuga():
+def comment_lim():
     console.print(
         Align.center(Panel(
-            "[bold light_cyan1]I learned how to use Rich panels through this! Nice job AJ![/bold light_cyan1]",
+            "[bold light_cyan1]<place comment here>[/bold light_cyan1]",
             title="[italic deep_sky_blue1]Comment from Dimayuga",
             border_style="cyan"))
     )
@@ -25,7 +25,7 @@ def comment_dimayuga():
 def comment_lopez():
     console.print(
         Align.center(Panel(
-            "[bold light_cyan1]The goals section is inspiring! Keep it up, AJ![/bold light_cyan1]",
+            "[bold light_cyan1]<place comment here>[/bold light_cyan1]",
             title="[italic deep_sky_blue1]Comment from Lopez",
             border_style="cyan"))
     )
@@ -33,7 +33,7 @@ def comment_lopez():
 def comment_romero():
     console.print(
         Align.center(Panel(
-            "[bold light_cyan1]I like how informative the Basic Info section is. Awesome work![/bold light_cyan1]",
+            "[bold light_cyan1]<place comment here>[/bold light_cyan1]",
             title="[italic deep_sky_blue1]Comment from Romero",
             border_style="cyan"))
     )
@@ -54,7 +54,7 @@ def display_menu():
         menu_text.append("3. ", style="bold green")
         menu_text.append("Comment from Aragon\n")
         menu_text.append("4. ", style="bold green")
-        menu_text.append("Comment from Dimayuga\n")
+        menu_text.append("Comment from Lim\n")
         menu_text.append("5. ", style="bold green")
         menu_text.append("Comment from Lopez\n")
         menu_text.append("6. ", style="bold green")
@@ -67,30 +67,45 @@ def display_menu():
             justify="center"
         )
 
-        choice = Prompt.ask("👉 Select an option", choices=["0", "1", "2", "3", "4", "5", "6"])
+        choice = Prompt.ask("👉 Select an option", choices=["0", "1", "2", "3", 
+                                                           "4", "5", "6"])
 
         if choice == "1":
-            console.print("[bold yellow]Name: Adriel Joseph Dimayuga[/bold yellow]")
+            console.print("[bold yellow]Name: Adriel Joseph Dimayuga"
+                          "[/bold yellow]")
             console.print("[bold yellow]Age: 21[/bold yellow]")
             console.print("[bold yellow]Birthday: 21[/bold yellow]")
             console.print("[bold yellow]Gender: Male[/bold yellow]")
-            console.print("[bold yellow]Program: Bachelor of Science in Information Technology[/bold yellow]")
+            console.print("[bold yellow]Program: Bachelor of Science in "
+                          "Information Technology[/bold yellow]")
             console.print("[bold yellow]Hobbies:[/bold yellow]")
-            console.print("[bold yellow] - I play games like League of Legends and Valorant[/bold yellow]")
-            console.print("[bold yellow] - I listen to music and practice vocals[/bold yellow]")
-            console.print("[bold yellow] - I watch tech-related YouTube videos regularly to keep updated[/bold yellow]")
+            console.print("[bold yellow] - I play games like League of Legends "
+                          "and Valorant[/bold yellow]")
+            console.print("[bold yellow] - I listen to music and practice "
+                          "vocals[/bold yellow]")
+            console.print("[bold yellow] - I watch tech-related YouTube videos "
+                          "regularly to keep updated[/bold yellow]")
 
         elif choice == "2":
-            console.print("🎯 [bold green]My goal is to become a skilled developer. With this, I will be able to solve problems through technology, because solving something that gives a big impact to me and others always excites me.[/bold green]")
+            console.print("🎯 [bold green]My goal is to become a skilled "
+                          "developer. With this, I will be able to solve "
+                          "problems through technology, because solving "
+                          "something that gives a big impact to me and others "
+                          "always excites me.[/bold green]")
             console.print("")
-            console.print("[bold green]There is a Bible verse that helped me get through hardships. To remember that there is always someone who will be with you, will help you, and will guide you.[/bold green]")
+            console.print("[bold green]There is a Bible verse that helped me "
+                          "get through hardships. To remember that there is "
+                          "always someone who will be with you, will help you, "
+                          "and will guide you.[/bold green]")
             console.print("")
-            console.print("[italic green]I can do all things through Christ who strengthens me.[/italic green] [italic green]- Philippians 4:13[/italic green]")
+            console.print("[italic green]I can do all things through Christ "
+                          "who strengthens me.[/italic green] "
+                          "[italic green]- Philippians 4:13[/italic green]")
 
         elif choice == "3":
             comment_aragon()
         elif choice == "4":
-            comment_dimayuga()
+            comment_lim()
         elif choice == "5":
             comment_lopez()
         elif choice == "6":
@@ -100,7 +115,10 @@ def display_menu():
             break
 
         console.print("")
-        Prompt.ask("🔁 Press Enter to return to the menu", default="", show_default=False)
+        Prompt.ask("🔁 Press Enter to return to the menu", 
+                   default="", 
+                   show_default=False)
+        
         console.clear()
 
 display_menu()
