@@ -74,8 +74,8 @@ def comments_lim():
     # Put your comments here. (e.g. console.print("<comment> - Name"))
 
 def comments_romero():
-    print_title("[yellow]✦ COMMENTS FROM TEAMMATE ROMERO ✦")
-    # Put your comments here. (e.g. console.print("<comment> - Name"))
+    print_title("[yellow]✦ Your positivity is contagious!"
+                "Thanks for always lifting the team’s mood.✦")
 
 def goodbye():
     print_title("[yellow]Thank you for using the menu! (˶ˆᗜˆ˵)")

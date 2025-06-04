@@ -73,7 +73,9 @@ def comment_lopez():
             )))
 
 def comment_romero():
-    print(Align.center(Panel("[bold light_cyan1] ",
+    print(Align.center(Panel("[bold light_cyan1]Your creativity really " 
+                            "stands out — you bring such unique " \
+                            "ideas every time!",
                             title="[italic deep_sky_blue1]Comment from Romero",
                             ))) 
 
