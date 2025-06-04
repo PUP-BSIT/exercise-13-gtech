@@ -57,23 +57,22 @@ def display_goals():
         )))            
 
 def comment_aragon():
-    print(Align.center(Panel("[bold light_cyan1] ",
+    print(Align.center(Panel("[bold light_cyan1]<insert comment here>",
                             title="[italic deep_sky_blue1]Comment from Aragon",
                             )))   
     
 def comment_dimayuga():
-    print(Align.center(Panel("[bold light_cyan1] ",
-                        title="[italic deep_sky_blue1]You’ve been super "
-                        "helpful — don’t think it goes unnoticed.",
+    print(Align.center(Panel("[bold light_cyan1]<insert comment here>",
+                        title="[italic deep_sky_blue1]Comment from Dimayuga",
                         )))
     
 def comment_lopez():
-    print(Align.center(Panel("[bold light_cyan1] ",                 
+    print(Align.center(Panel("[bold light_cyan1]<insert comment here>",
             title="[italic deep_sky_blue1]Comment from Lopez",
             )))
 
 def comment_romero():
-    print(Align.center(Panel("[bold light_cyan1] ",
+    print(Align.center(Panel("[bold light_cyan1]<insert comment here>",
                             title="[italic deep_sky_blue1]Comment from Romero",
                             ))) 
 
@@ -97,6 +96,7 @@ def display_lim_menu():
         elif user_choice == "6":
             comment_romero()           
         elif user_choice == "7":
+            clear_screen()
             print(Align.center("[italic deep_sky_blue1] "
                                "Thank you, Goodbye! ༄"))  
             break
