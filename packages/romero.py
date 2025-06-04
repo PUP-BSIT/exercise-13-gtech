@@ -67,7 +67,8 @@ def comments_aragon():
 def comments_lopez():
     section_header("COMMENTS FROM LOPEZ")
     #add comments here
-    console.print("[magenta]»")
+    console.print("[magenta]You always have an unstoppable force! " \
+                        "Always fun and energetic.")
 
 def comments_dimayuga():
     section_header("COMMENTS FROM DIMAYUGA")

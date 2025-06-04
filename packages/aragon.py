@@ -122,7 +122,8 @@ def comment_lim():
 def comment_lopez():
     # Function to display teammate Lopez comments
     console.print(Panel(
-        "[yellow]⋆ˎˊ˗ Hoshea Shania Lopez:[insert comment here]\n",
+        "[yellow]⋆ˎˊ˗ Hoshea Shania Lopez: Funny and smart! A great "
+                                    "teammate and friend in the class!\n",
         title="⋆𐙚₊˚ Teammate Comments ⋆˚࿔",
         border_style="magenta"
     ))

@@ -68,8 +68,9 @@ def comment_dimayuga():
                         )))
     
 def comment_lopez():
-    print(Align.center(Panel("[bold light_cyan1]<insert comment here>",
-            title="[italic deep_sky_blue1]Comment from Lopez",
+    print(Align.center(Panel("[bold light_cyan1] ",                 
+            title="[italic deep_sky_blue1]A great programmer! I always " \
+                                        "liked your style and aesthetic.",
             )))
 
 def comment_romero():
