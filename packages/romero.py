@@ -49,13 +49,15 @@ def basic_info():
     console.print("[bold magenta]• Age       :[/] 19")
     console.print("[bold magenta]• Birthday  :[/] October 31, 2005")
     console.print("[bold magenta]• Gender    :[/] Female")
-    console.print("[bold magenta]• Program   :[/] Bachelor of Science in Information Technology")
-    console.print("[bold magenta]• Hobbies   :[/] Singing, cooking, and sleeping")
+    console.print("[bold magenta]• Program   :[/] BSIT")
+    console.print("[bold magenta]• Hobbies   :[/] Singing and cooking")
 
 def goals():
     section_header("LIFE GOALS")
-    console.print("[italic magenta]“Never stop learning. Grow through every challenge.”[/]")
-    console.print("[italic magenta]“Live a life filled with curiosity, creativity, and purpose.”[/]")
+    console.print("[italic magenta]“Never stop learning."
+                  "Grow through every challenge.”[/]")
+    console.print("[italic magenta]“Live a life filled"
+                 " with curiosity, creativity, and purpose.”[/]")
 
 def comments_aragon():
     section_header("COMMENTS FROM ARAGON")
@@ -90,13 +92,13 @@ def romero_menu():
         clear_screen()
         print_title("✦ RAIN'S PERSONAL CONSOLE MENU ✦")
 
-        console.print("[bold magenta][1][/bold magenta]  Basic Info")
-        console.print("[bold magenta][2][/bold magenta]  Goals")
-        console.print("[bold magenta][3][/bold magenta]  Random Fact")
-        console.print("[bold magenta][4][/bold magenta]  Comments from Aragon")
-        console.print("[bold magenta][5][/bold magenta]  Comments from Lopez")
-        console.print("[bold magenta][6][/bold magenta]  Comments from Dimayuga")
-        console.print("[bold magenta][7][/bold magenta]  Comments from Lim")
+        console.print("[bold magenta][1][/bold magenta]Basic Info")
+        console.print("[bold magenta][2][/bold magenta]Goals")
+        console.print("[bold magenta][3][/bold magenta]Random Fact")
+        console.print("[bold magenta][4][/bold magenta]Comments from Aragon")
+        console.print("[bold magenta][5][/bold magenta]Comments from Lopez")
+        console.print("[bold magenta][6][/bold magenta]Comments from Dimayuga")
+        console.print("[bold magenta][7][/bold magenta]Comments from Lim")
         console.print("[bold red][8][/bold red]  Exit")
 
         choice = console.input("\n[bold magenta]Select an option:[/] ")
@@ -121,7 +123,8 @@ def romero_menu():
             goodbye()
             break
         else:
-            console.print("[red]Invalid option. Please select a number between 1 and 8.")
+            console.print("[red]Invalid option. " 
+            "Please select a number between 1 and 8.")
 
         console.input("\n[dim]Press Enter to return to the menu...[/]")
 
