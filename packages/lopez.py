@@ -6,22 +6,26 @@ from rich.text import Text
 from rich.align import Align
 from rich import box
 
+# List for the quote of the day method
 fun_facts = [
     "🐱 Cats have over 20 muscles that control their ears.",
     "🦋 Butterflies can taste with their feet.",
     "🎨 Picasso learned to draw before he could talk.",
     "🌍 There are more trees on Earth than stars in the Milky Way.",
     "🧁 The first computer bug was an actual bug — a moth!",
-    "🎈 Bananas are berries, but strawberries aren’t.",
+    "🎈 Bananas are berries, but strawberries aren't.",
     "🐶 Dogs can understand up to 250 words and gestures.",
     "📚 Reading for just 6 minutes can reduce stress by 68%.",
 ]
 
+# Create a styled output console
 console = Console()
 
+# Clear screen function
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+# Border function
 def print_title(text):
     panel = Panel(
         Align.center(text, vertical="middle"),
@@ -31,18 +35,67 @@ def print_title(text):
     )
     console.print(panel)
 
+def basic_info():
+    print_title("[yellow]⋆˚✿˖° BASIC INFORMATION ⋆˚✿˖°")
+    console.print("[cyan]☆ Name     : Hoshea Shania C. Lopez")
+    console.print("[cyan]☆ Age      : 20")
+    console.print("[cyan]☆ Birthday : July 10, 2004")
+    console.print("[cyan]☆ Gender   : Female")
+    console.print("[cyan]☆ City     : Paranaque")
+    console.print("[cyan]☆ Program  : BS in Information Technology")
+    console.print("[cyan]☆ Hobbies  : Drawing, sleeping, gaming, and reading")
+    console.print("[cyan]☆ Favorite Color : Blue")
+    console.print("[cyan]☆ Favorite Food  : French Fries")
+    console.print("[cyan]☆ Pets  : 4 dogs (Teddy, Sophie, Mingyu, Abujing)")
+
+def goals():
+    print_title("[yellow]⟡ ݁₊ . MY GOALS IN LIFE ᯓ★")
+    console.print("𖹭 [bold]Return to my passion: creating art 𖹭.ᐟ")
+    console.print("୭˚ [bold]Live a prosperous and meaningful life ⋆.˚")
+    console.print("⋆.˚ [bold]Help neglected and abused animals ୭ ˚. !")
+    console.print("☾ [bold]Become better in programming ࣪ ִֶָ☾.[/]")
+
+def random_fact():
+    fact = random.choice(fun_facts)
+    print_title("[yellow]Random Fact of the day!")
+    console.print(f"[italic magenta]💡 Fun Fact: {fact}[/]\n")
+
+def comments_aragon():
+    print_title("[yellow]✦ COMMENTS FROM TEAMMATE ARAGON ✦")
+    # Put your comments here. (e.g. console.print("<comment> - Name"))
+
+def comments_dimayuga():
+    print_title("[yellow]✦ COMMENTS FROM TEAMMATE DIMAYUGA ✦")
+    # Put your comments here. (e.g. console.print("<comment> - Name"))
+
+def comments_lim():
+    print_title("[yellow]✦ COMMENTS FROM TEAMMATE LIM ✦")
+    # Put your comments here. (e.g. console.print("<comment> - Name"))
+
+def comments_romero():
+    print_title("[yellow]✦ COMMENTS FROM TEAMMATE ROMERO ✦")
+    # Put your comments here. (e.g. console.print("<comment> - Name"))
+
+def goodbye():
+    print_title("[yellow]Thank you for using the menu! (˶ˆᗜˆ˵)")
+
 def lopez_menu():
     while True:
         clear_screen()
         print_title("[yellow]⋆｡°✩ WELCOME TO HOSHEA'S MENU ✩°｡⋆")
 
-        console.print("[1] ✦ Basic Info", style="bold cyan")
+        print_title("[yellow]Good day! I'm Hoshea Shania C. Lopez, "
+                    "a 2nd Year BSIT Student in PUPT. Always hoping "
+                    "that the odds may ever be in my favor!")
+
+        console.print("[1] ✦ Basic Information", style="bold cyan")
         console.print("[2] ✦ Goals", style="bold cyan")
-        console.print("[3] ✦ Random Fact of the Day!", style="bold cyan")
-        console.print("[4] ✦ Comments from Aragon", style="bold cyan")
-        console.print("[5] ✦ Comments from Dimayuga", style="bold cyan")
-        console.print("[6] ✦ Comments from Lim", style="bold cyan")
-        console.print("[7] ✦ Comments from Romero", style="bold cyan")
+        console.print("[3] ✦ Random Fact of the day!", style="bold cyan")
+        console.print("[4] ✦ Comments from Teammate Aragon", style="bold cyan")
+        console.print("[5] ✦ Comments from Teammate Dimayuga", 
+                        style="bold cyan")
+        console.print("[6] ✦ Comments from Teammate Lim", style="bold cyan")
+        console.print("[7] ✦ Comments from Teammate Romero", style="bold cyan")
         console.print("[8] ✦ Exit", style="bold red")
 
         choice = console.input("\n[green]Choose an option:[/] ")
@@ -50,50 +103,26 @@ def lopez_menu():
         clear_screen()
 
         if choice == "1":
-            print_title("[yellow]⋆˚✿˖° BASIC INFORMATION ⋆˚✿˖°")
-            console.print("[cyan]☆ Name     : Hoshea Shania C. Lopez")
-            console.print("[cyan]☆ Age      : 20")
-            console.print("[cyan]☆ Birthday : July 10, 2004")
-            console.print("[cyan]☆ Gender   : Female")
-            console.print("[cyan]☆ Program  : Bachelor of Science in Information Technology")
-            console.print("[cyan]☆ Hobbies  : Drawing, sleeping, gaming, and reading")
-            console.print("[cyan]☆ Favorite Color : Blue")
-            console.print("[cyan]☆ Favorite Food  : French Fries")
-
+            basic_info()
         elif choice == "2":
-            print_title("[yellow]⟡ ݁₊ . MY GOALS IN LIFE ᯓ★")
-            console.print("𖹭 [bold]Return to my passion: creating art 𖹭.ᐟ")
-            console.print("୭˚ [bold]Live a prosperous and meaningful life ⋆.˚")
-            console.print("⋆.˚ [bold]Help neglected and abused animals ୭ ˚. !")
-            console.print("☾ [bold]Become better in programming ࣪ ִֶָ☾.")
-
+            goals()
         elif choice == "3":
-            fact = random.choice(fun_facts)
-            print_title("[yellow]Random Fact of the day!")
-            console.print(f"[italic magenta]💡 Fun Fact: {fact}[/]\n")
-
+            random_fact()
         elif choice == "4":
-            print_title("[yellow]✦ COMMENTS FROM TEAMMATE ARAGON ✦")
-            #Put your Comment Here. (e.g. console.print("<comment> - Name"))
-
+            comments_aragon()
         elif choice == "5":
-            print_title("[yellow]✦ COMMENTS FROM TEAMMATE DIMAYUGA ✦")
-            #Put your Comment Here. (e.g. console.print("<comment> - Name"))
-
+            comments_dimayuga()
         elif choice == "6":
-            print_title("[yellow]✦ COMMENTS FROM TEAMMATE LIM ✦")
-            #Put your Comment Here. (e.g. console.print("<comment> - Name"))
-
+            comments_lim()
         elif choice == "7":
-            print_title("[yellow]✦ COMMENTS FROM TEAMMATE ROMERO ✦")
-            #Put your Comment Here. (e.g. console.print("<comment> - Name"))
-            
+            comments_romero()
         elif choice == "8":
-            print_title("Thank you for using the menu! (˶ˆᗜˆ˵)")
+            goodbye()
             break
         else:
-            console.print("[bold red]Invalid choice.[/] Please select a number from 1 to 4.")
+            console.print("[bold red]Invalid choice." \
+                        "Please select a number that is available. (• ᴖ •｡ )")
 
-        console.input("\n[grey]Press Enter to return to the menu...[/]")
+        console.input("\n[grey]Press Enter to return to the menu...")
 
 lopez_menu()
