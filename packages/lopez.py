@@ -74,7 +74,8 @@ def comments_lim():
     console.print("I like your design!")
 
 def comments_romero():
-    console.print("[yellow]✦ Your positivity is contagious!"
+    print_title("[yellow]✦ COMMENTS FROM TEAMMATE ROMERO ✦")
+    console.print("✦ Your positivity is contagious! "
                 "Thanks for always lifting the team’s mood.✦")
 
 def goodbye():
