@@ -25,7 +25,8 @@ def comment_lim():
 def comment_lopez():
     console.print(
         Align.center(Panel(
-            "[bold light_cyan1]<place comment here>[/bold light_cyan1]",
+            "[bold light_cyan1]A reliable teammate! Fun, smart, and a " \
+                "great singer. IRL John Lloyd Cruz![/bold light_cyan1]",
             title="[italic deep_sky_blue1]Comment from Lopez",
             border_style="cyan"))
     )

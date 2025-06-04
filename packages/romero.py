@@ -72,7 +72,8 @@ def comments_lopez():
 def comments_dimayuga():
     section_header("COMMENTS FROM DIMAYUGA")
     #add comments here
-    console.print("[magenta]» ")
+    console.print("[magenta]» Appreciate the effort you've been putting in "
+                  "lately — keep it up!")
 
 def comments_lim():
     section_header("COMMENTS FROM LIM")
