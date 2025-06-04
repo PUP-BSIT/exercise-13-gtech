@@ -92,11 +92,11 @@ def romero_menu():
 
         console.print("[bold magenta][1][/bold magenta]  Basic Info")
         console.print("[bold magenta][2][/bold magenta]  Goals")
-        console.print("[bold magenta][3][/bold magenta]  Comments from Aragon")
-        console.print("[bold magenta][4][/bold magenta]  Comments from Lopez")
-        console.print("[bold magenta][5][/bold magenta]  Comments from Dimayuga")
-        console.print("[bold magenta][6][/bold magenta]  Comments from Lim")
-        console.print("[bold magenta][7][/bold magenta]  Random Fact")
+        console.print("[bold magenta][3][/bold magenta]  Random Fact")
+        console.print("[bold magenta][4][/bold magenta]  Comments from Aragon")
+        console.print("[bold magenta][5][/bold magenta]  Comments from Lopez")
+        console.print("[bold magenta][6][/bold magenta]  Comments from Dimayuga")
+        console.print("[bold magenta][7][/bold magenta]  Comments from Lim")
         console.print("[bold red][8][/bold red]  Exit")
 
         choice = console.input("\n[bold magenta]Select an option:[/] ")
@@ -108,15 +108,15 @@ def romero_menu():
         elif choice == "2":
             goals()
         elif choice == "3":
-            comments_aragon()
-        elif choice == "4":
-            comments_lopez()
-        elif choice == "5":
-            comments_dimayuga()
-        elif choice == "6":
-            comments_lim()
-        elif choice == "7":
             random_fact()
+        elif choice == "4":
+            comments_aragon()
+        elif choice == "5":
+            comments_lopez()
+        elif choice == "6":
+            comments_dimayuga()
+        elif choice == "7":
+            comments_lim()
         elif choice == "8":
             goodbye()
             break
