@@ -101,7 +101,8 @@ def goals():
 def comment_dimayuga():
     # Function to display teammate Dimayuga comments
     console.print(Panel(
-        "[yellow]⋆ˎˊ˗ Adriel Joseph Dimayuga: \n",
+        "[yellow]⋆ˎˊ˗ Adriel Joseph Dimayuga: You make working on this project "
+        "actually fun.\n",
         title="⋆𐙚₊˚ Teammate Comments ⋆˚࿔",
         border_style="magenta"
     ))
@@ -111,7 +112,7 @@ def comment_dimayuga():
 def comment_lim():
     # Function to display teammate Lim comments
     console.print(Panel(
-        "[yellow]⋆ˎˊ˗ Grace Anne Lim: \n",
+        "[yellow]⋆ˎˊ˗ Grace Anne Lim:[insert comment here]\n",
         title="⋆𐙚₊˚ Teammate Comments ⋆˚࿔",
         border_style="magenta"
     ))
@@ -132,7 +133,8 @@ def comment_lopez():
 def comment_romero():
     # Function to display teammate Romero comments
     console.print(Panel(
-        "[yellow]⋆ˎˊ˗ Dianna Rain Romero: \n",
+        "[yellow]⋆ˎˊ˗ Dianna Rain Romero: You’re always composed"
+        " and dependable — such a calming presence in the group!",
         title="⋆𐙚₊˚ Teammate Comments ⋆˚࿔",
         border_style="magenta"
     ))
