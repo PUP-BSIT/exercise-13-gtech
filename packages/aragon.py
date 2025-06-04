@@ -101,7 +101,8 @@ def goals():
 def comment_dimayuga():
     # Function to display teammate Dimayuga comments
     console.print(Panel(
-        "[yellow]⋆ˎˊ˗ Adriel Joseph Dimayuga:[insert comment here]\n",
+        "[yellow]⋆ˎˊ˗ Adriel Joseph Dimayuga: You make working on this project "
+        "actually fun.\n",
         title="⋆𐙚₊˚ Teammate Comments ⋆˚࿔",
         border_style="magenta"
     ))
