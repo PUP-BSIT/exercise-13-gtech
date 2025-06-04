@@ -45,7 +45,8 @@ def aragon_menu():
             case "6":
                 comment_romero()
             case "7":
-                console.print("\n[blue]Returning to Team Menu...[blue]")
+                console.print("\n[blue]Thank you for using my menu!" 
+                                 " Returning to Team Menu...[blue]")
                 return
             case _:
                 console.print("[red]Invalid choice. Please try again.[red]")
@@ -101,8 +102,8 @@ def goals():
 def comment_dimayuga():
     # Function to display teammate Dimayuga comments
     console.print(Panel(
-        "[yellow]⋆ˎˊ˗ Adriel Joseph Dimayuga: You make working on this project "
-        "actually fun.\n",
+        "[yellow]⋆ˎˊ˗ Adriel Joseph Dimayuga: You make working on this project"
+                                            " actually fun.\n",
         title="⋆𐙚₊˚ Teammate Comments ⋆˚࿔",
         border_style="magenta"
     ))
@@ -140,5 +141,4 @@ def comment_romero():
     ))
     input("\nPress ENTER to return to Althea's Menu")
     clear()
-
-aragon_menu()
+    return

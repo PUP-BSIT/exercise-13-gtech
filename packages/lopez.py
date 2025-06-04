@@ -61,7 +61,7 @@ def random_fact():
     console.print(f"[italic magenta]💡 Fun Fact: {fact}[/]\n")
 
 def comments_aragon():
-    print_title("[yellow]✦ COMMENTS FROM TEAMMATE ARAGON ✦")
+    print_title("[yellow]✦ Great member! Happy to have you in our group. ✦")
     # Put your comments here. (e.g. console.print("<comment> - Name"))
 
 def comments_dimayuga():
@@ -74,7 +74,7 @@ def comments_lim():
     console.print("I like your design!")
 
 def comments_romero():
-    print_title("[yellow]✦ Your positivity is contagious!"
+    console.print("[yellow]✦ Your positivity is contagious!"
                 "Thanks for always lifting the team’s mood.✦")
 
 def goodbye():
@@ -123,7 +123,5 @@ def lopez_menu():
         else:
             console.print("[bold red]Invalid choice." \
                         "Please select a number that is available. (• ᴖ •｡ )")
-
-        console.input("\n[grey]Press Enter to return to the menu...")
-
-lopez_menu()
+            
+        return

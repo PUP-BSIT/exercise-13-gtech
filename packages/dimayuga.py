@@ -9,7 +9,8 @@ console = Console()
 def comment_aragon():
     console.print(
         Align.center(Panel(
-            "[bold light_cyan1]<place comment here>[/bold light_cyan1]",
+            "[bold light_cyan1]Reliable team member! Always balance the team."
+            "[/bold light_cyan1]",
             title="[italic deep_sky_blue1]Comment from Aragon",
             border_style="cyan"))
     )
@@ -117,10 +118,6 @@ def display_menu():
             break
 
         console.print("")
-        Prompt.ask("🔁 Press Enter to return to the menu", 
-                   default="", 
-                   show_default=False)
-        
         console.clear()
-
-display_menu()
+        
+        return

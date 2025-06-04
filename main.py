@@ -1,3 +1,8 @@
+import packages.aragon as aragon
+import packages.dimayuga as dimayuga
+import packages.lim as lim
+import packages.lopez as lopez
+import packages.romero as romero
 from rich.console import Console
 from rich.panel import Panel 
 from rich.align import Align
@@ -55,21 +60,22 @@ def main_menu():
         if choice == "1":
             print_title("[bold magenta]You selected: " \
                             "Aragon Module[/bold magenta]")
-            import packages.aragon as aragon
             aragon.aragon_menu()
         elif choice == "2":
             print_title("[bold magenta]You selected: " \
                             "Dimayuga Module[/bold magenta]")
+            dimayuga.display_menu()
         elif choice == "3":
             print_title("[bold magenta]You selected: " \
                             "Lim Module[/bold magenta]")
+            lim.display_lim_menu()
         elif choice == "4":
             print_title("[bold magenta]You selected: " \
                             "Lopez Module[/bold magenta]")
+            lopez.lopez_menu()
         elif choice == "5":
             print_title("[bold magenta]You selected: " \
                             "Romero Module[/bold magenta]")
-            import packages.romero as romero
             romero.romero_menu()
         elif choice == "6":
             console.print("\n[bold green]Thank you! Goodbye![/bold green]")

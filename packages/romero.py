@@ -62,7 +62,7 @@ def goals():
 def comments_aragon():
     section_header("COMMENTS FROM ARAGON")
     #add comments here
-    console.print("[magenta]»  ")
+    console.print("[magenta]» What a great member! I appreciate you. ")
 
 def comments_lopez():
     section_header("COMMENTS FROM LOPEZ")
@@ -128,6 +128,4 @@ def romero_menu():
             console.print("[red]Invalid option. " 
             "Please select a number between 1 and 8.")
 
-        console.input("\n[dim]Press Enter to return to the menu...[/]")
-
-romero_menu()
+        return
